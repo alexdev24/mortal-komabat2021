@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/style.css">   
+    <title>Document</title>
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="header">
+        <a class="logo" href="/">
+            <img src="img/КиноПульс.svg" alt="Логотип Кинопульса" class="logo-image">
+        </a>   
+        <a href="#" class="user">
+            <span class="user_name">Алексей</span>
+            <img src="img/avatar.jpg" alt="Аватар пользователя" class="user_photo">           
+        </a>
+    </header>
+    <section class="description">
+        <img src="img/film-logo.png" alt="mortal-combat" class="film-logo">
+        <div class="tags">
+            <span>2021</span>
+            <span>боевик,фэнтези,фантастика</span>
+            <span>США</span>
+            <span class="age">18+</span>
+        </div>
+        <p class="description-text">
+            Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший 
+        </p>
+        <div class="button-group">
+            <a data-fancybox data-src="#hidden-content" href="" class="button button-primary">Предзаказ фильма</a>
+            <div class="hidden-content" id="hidden-content">
+                <h2>Введите свой e-mail:</h2>
+                <form action="" class="form">
+                    <input type="mail" name="email" placeholder="E-mail" class="input">
+                    <button type="text" name="button" class="btn btn-form">Подписаться</button>
+                </form>
+            </div>
+            <a data-fancybox href="https://www.youtube.com/watch?v=NYH2sLid0Zc" class="button button-default">
+                <img src="img/Vector.svg" alt="play" class="play">
+                <span class="button-text">Смотреть трейлер</span>
+            </a>
+        </div>
+      </section>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/jquery.vide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
